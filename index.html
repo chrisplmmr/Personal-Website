@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Christopher Plummer</title>
+		<link id="s1" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+		<link id="s2" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+		<link id="s3" href="style.css" rel="stylesheet" type="text/css">
+		
+		<!-- Add icon library -->
+		<link id="s4" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<style>
+		.image-frame {
+			width: 230px;
+			height: 230px;
+			position: relative;
+			overflow: hidden;
+			border-radius: 50%;
+			filter: drop-shadow(0px 0px 6px #000);
+		}
+		.portrait {
+			display: inline;
+			width: auto;
+			height: 100%;
+			margin-left: -59px;
+		}
+		</style>
+	</head>
+
+<body>
+	<nav>
+		<ul align="center">
+		<li><a id="home" href="index.html" onclick="navAlert()">Home</a></li>
+		<li><a href="about_me.html" onclick="navAlert()">About Me</a></li>
+		<li><a href="portfolio.html" onclick="navAlert()">Portfolio</a></li>
+		<!-- style="float:right"-->
+		<li><a href="qualifications.html" onclick="navAlert()">Qualifications</a></li>
+		<li><a id="service" href="service.html" onclick="navAlert()">Service</a></li>
+		</ul>
+	</nav>
+	
+	<p>&nbsp;</p>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<!--<td align="center"><h3><font style="font-family: 'Open Sans', sans-serif; font-weight:400;" color="#e8e8e8">Welcome!</font></h3></td>-->
+		<td align="center"><h3><font style="font-weight:400;" color="#e8e8e8">Welcome!</font></h3></td>
+		</tr>
+		<tr>
+		<!--<td class="titles" align="center"><br><font style="font-family: 'Open Sans', sans-serif;" color="#e8e8e8" size="40px">Christopher Plummer</font></td>-->
+		<td class="titles" align="center"><br><font style="" color="#e8e8e8" size="40px">Christopher Plummer</font></td>
+		</tr>
+		<tr>
+		<td align="center"><br><br><div class="image-frame"><img src="pictures/portrait.jpg" alt="Portrait Image Not Loaded..." class="portrait"></div></td>
+		</tr>
+	</table>
+	
+	<ul class="iconlist" align="center" style="margin: 20px;">
+		<a href="https://www.facebook.com/chris.plummer.77312" class="fa fa-facebook" target="_blank"></a>
+		<a href="https://www.linkedin.com/in/chrisplmmr/" class="fa fa-linkedin" target="_blank"></a>
+		<a href="https://twitter.com/chrisplmmr" class="fa fa-twitter" target="_blank"></a>
+	</ul>
+	
+	<script>
+		function navAlert(){
+			console.log("Clicked");
+			//alert("Clicked");
+		}
+	</script>	
+</body>
+</html>
